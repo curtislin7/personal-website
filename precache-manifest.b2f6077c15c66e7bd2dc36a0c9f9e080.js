@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "54f987e3c5e9585703a9191d7e148e6d",
+    "revision": "ec7d381706ba864b61974586336c54c8",
     "url": "/curtis-website/index.html"
   },
   {
-    "revision": "e59ec15d7051ddf004f7",
+    "revision": "920158443723d2255811",
     "url": "/curtis-website/static/css/main.73de8b9f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/curtis-website/static/js/2.7c0a0324.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e59ec15d7051ddf004f7",
-    "url": "/curtis-website/static/js/main.5a5bc9e3.chunk.js"
+    "revision": "920158443723d2255811",
+    "url": "/curtis-website/static/js/main.de7ec081.chunk.js"
   },
   {
     "revision": "a759442c49b515d799c1",
