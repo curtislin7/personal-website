@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/curtis-website/static/css/main.73de8b9f.chunk.css",
-    "main.js": "/curtis-website/static/js/main.de7ec081.chunk.js",
-    "main.js.map": "/curtis-website/static/js/main.de7ec081.chunk.js.map",
+    "main.js": "/curtis-website/static/js/main.d6a868ea.chunk.js",
+    "main.js.map": "/curtis-website/static/js/main.d6a868ea.chunk.js.map",
     "runtime-main.js": "/curtis-website/static/js/runtime-main.4884704e.js",
     "runtime-main.js.map": "/curtis-website/static/js/runtime-main.4884704e.js.map",
-    "static/js/2.7c0a0324.chunk.js": "/curtis-website/static/js/2.7c0a0324.chunk.js",
-    "static/js/2.7c0a0324.chunk.js.map": "/curtis-website/static/js/2.7c0a0324.chunk.js.map",
+    "static/js/2.0e44905d.chunk.js": "/curtis-website/static/js/2.0e44905d.chunk.js",
+    "static/js/2.0e44905d.chunk.js.map": "/curtis-website/static/js/2.0e44905d.chunk.js.map",
     "index.html": "/curtis-website/index.html",
-    "precache-manifest.b2f6077c15c66e7bd2dc36a0c9f9e080.js": "/curtis-website/precache-manifest.b2f6077c15c66e7bd2dc36a0c9f9e080.js",
+    "precache-manifest.f192aba67f5bd4e615a2857c0a0e85a3.js": "/curtis-website/precache-manifest.f192aba67f5bd4e615a2857c0a0e85a3.js",
     "service-worker.js": "/curtis-website/service-worker.js",
     "static/css/main.73de8b9f.chunk.css.map": "/curtis-website/static/css/main.73de8b9f.chunk.css.map",
-    "static/js/2.7c0a0324.chunk.js.LICENSE.txt": "/curtis-website/static/js/2.7c0a0324.chunk.js.LICENSE.txt"
+    "static/js/2.0e44905d.chunk.js.LICENSE.txt": "/curtis-website/static/js/2.0e44905d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4884704e.js",
-    "static/js/2.7c0a0324.chunk.js",
+    "static/js/2.0e44905d.chunk.js",
     "static/css/main.73de8b9f.chunk.css",
-    "static/js/main.de7ec081.chunk.js"
+    "static/js/main.d6a868ea.chunk.js"
   ]
 }
