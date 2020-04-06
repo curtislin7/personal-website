@@ -5,7 +5,6 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
     popover: {
-			backgrondColor: theme.palette.main,
       pointerEvents: 'none',
     },
     paper: {
