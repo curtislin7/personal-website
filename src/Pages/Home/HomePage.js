@@ -112,7 +112,7 @@ const HomePage = () => {
             <div className={classes.sectionTitle}>Additional Information</div>
             <hr className={classes.line}/>
             <ul className={classes.points}>
-              <li>Languages: Chinese</li>
+              <li>Languages: Chinese (Mandarin)</li>
               <li>Interests: Basketball, Horology</li>
               <li><a href={'https://www.youtube.com/watch?v=j8Bxhls5r7k'}>Winner of the 2013 CSMTA concerto competition for violin</a></li>
             </ul>
