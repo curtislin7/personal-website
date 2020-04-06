@@ -5,6 +5,7 @@ import IconButton from '@material-ui/core/IconButton';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@material-ui/icons/Email';
+import PopoverHoverWord from '../../components/PopoverHoverWord'
 
 const useStyles = makeStyles(HomeStyles);
 const HomePage = () => {
@@ -13,6 +14,7 @@ const HomePage = () => {
     <div>
       <div>
         <h1 className={classes.header}>Curtis Lin</h1>
+        <div className={classes.headerSubtitle}><span role="img" aria-label="mountain">Boulder, Colorado ⛰</span></div>
         <div className={classes.links}>
           <IconButton edge="end" color="inherit" aria-label="github" href="https://github.com/curtislin7">
             <GitHubIcon />
@@ -25,23 +27,8 @@ const HomePage = () => {
           </IconButton>
         </div>
       </div>
-      <br/>
       <div className={classes.resume}>
-          <div className={classes.section}>
-            <div className={classes.sectionTitle}>Education</div>
-            <hr className={classes.line}/>
-            <div className={classes.sectionHeader}>
-              <div className={classes.company}>University of Colorado at Boulder</div>
-              <div className={classes.date}>May 2019</div>
-            </div>
-            <div className={classes.degree}>Bachelor’s Computer Science</div>
-            <div className={classes.degree}>Bachelor’s Business Administration</div>
-            <ul className={classes.points}>
-              <li><span className={classes.pointHeader}>Technical GPA:&nbsp;</span>3.7</li>
-              <li><span className={classes.pointHeader}>Coursework:&nbsp;</span>Algorithms, Data Structures, Principles of Programming Languages, Artificial Intelligence, Computer Systems, Discrete Structures, Data Science, Dynamic Algorithms for Molecular Biology </li>
-            </ul>
-          </div>
-          <div className={classes.section}>
+        <div className={classes.section}>
             <div className={classes.sectionTitle}>Experience</div>
             <hr className={classes.line}/>
             <div className={classes.sectionHeader}>
@@ -85,7 +72,21 @@ const HomePage = () => {
             <ul className={classes.points}>
               <li><a className={classes.pointHeader} href={'https://bit.ly/2WsF9L9'}>Olfactory Search Strategy Simulations:&nbsp;</a>Simulated a target (human) with an odor moving on a path and an agent (dog) who searched for the target using different methods to find an optimal search strategy</li>
               <li><a className={classes.pointHeader} href={'https://bit.ly/2V9BY7m'}>Sudoku Solver:&nbsp;</a>– Implemented a backtracking search algorithm to solve randomly generated Sudoku puzzle boards</li>
-              <li><span className={classes.pointHeader}>Search Engine:&nbsp;</span>Created a search engine based on the vector space model of information retrieval; used the cosine angle between the query and document vectors as a measure of similarity </li>
+              <li><span className={classes.pointHeader}>Search Engine:&nbsp;</span>Created a search engine based on the vector space model of information retrieval; used the cosine angle between the query and document vectors as a measure of similarity</li>
+            </ul>
+          </div>
+          <div className={classes.section}>
+            <div className={classes.sectionTitle}>Education</div>
+            <hr className={classes.line}/>
+            <div className={classes.sectionHeader}>
+              <div className={classes.company}>University of Colorado at Boulder</div>
+              <div className={classes.date}>May 2019</div>
+            </div>
+            <div className={classes.degree}>Bachelor’s Computer Science</div>
+            <div className={classes.degree}>Bachelor’s Business Administration</div>
+            <ul className={classes.points}>
+              <li><span className={classes.pointHeader}>Technical GPA:&nbsp;</span>3.7</li>
+              <li><span className={classes.pointHeader}>Coursework:&nbsp;</span>Algorithms, Data Structures, Principles of Programming Languages, Artificial Intelligence, Computer Systems, Discrete Structures, Data Science, Dynamic Algorithms for Molecular Biology </li>
             </ul>
           </div>
           <div className={classes.section}>
@@ -113,7 +114,7 @@ const HomePage = () => {
             <hr className={classes.line}/>
             <ul className={classes.points}>
               <li>Languages: Chinese (Mandarin)</li>
-              <li>Interests: Basketball, Horology</li>
+              <li><div className={classes.lineContent}>Interests: Basketball,&nbsp;<PopoverHoverWord text='Horology' content='horology: a fancy word for watch enthusiasts!'/></div></li>
               <li><a href={'https://www.youtube.com/watch?v=j8Bxhls5r7k'}>Winner of the 2013 CSMTA concerto competition for violin</a></li>
             </ul>
           </div>

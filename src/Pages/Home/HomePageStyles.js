@@ -1,7 +1,14 @@
 const HomeStyles = (theme) => ({
+    header: {
+      textAlign:'center',
+    },
+    headerSubtitle:{
+      textAlign:'center',
+      fontSize:'15px'
+    },
     links: {
       '& > *': {
-        margin: theme.spacing(0.5),
+        margin: theme.spacing(0.4),
       },
       textAlign:'center',
       paddingTop:'0'
@@ -9,12 +16,8 @@ const HomeStyles = (theme) => ({
     resume: {
       width:'80%',
       margin:'auto',
-      height:'1000px',
       // backgroundColor: theme.palette.primary.main,
       fontFamily:theme.typography.fontFamily
-    },
-    header: {
-      textAlign:'center',
     },
     section: {
       height:'auto',
@@ -54,6 +57,19 @@ const HomeStyles = (theme) => ({
     },
     pointHeader: {
       fontWeight:'bold'
+    },
+    lineContent: {
+      display:'flex',
+      flexDirection:'row'
+    },
+    footer: {
+      display:'flex',
+      justifyContent:'center',
+      alignItems:'center',
+      height:'150px'
+    },
+    footerItem: {
+
     }
 });
 
