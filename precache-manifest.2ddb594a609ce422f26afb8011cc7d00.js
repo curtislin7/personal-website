@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a603ab45a0f44e3f2441593ebc0708fe",
+    "revision": "d6b0ef1caf379ce9a890a30da36c96fd",
     "url": "/curtis-website/index.html"
   },
   {
