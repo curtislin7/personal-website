@@ -63,7 +63,7 @@ const HomePage = () => {
               <li>Taught introductory Computer Science classes to college-bound students</li>
               <li>Helped students design mobile applications using MIT App Inventor and Thunkable</li>
               <li>Led coursework and projects that introduced the fundamentals of Computer Science and programming</li>
-              <li>Organized onsite visits and tech talks at Google, Raspberry Pi, Google San Francisco, and Thunkable</li>
+              <li>Organized onsite visits and tech talks at Google, Raspberry Pi, and Thunkable</li>
             </ul>
           </div>
           <div className={classes.section}>
@@ -105,8 +105,8 @@ const HomePage = () => {
             <div className={classes.sectionTitle}>Skills</div>
             <hr className={classes.line}/>
             <ul className={classes.points}>
-              <li>Programming: Python (proficient), Apex (proficient), Javascript (prior experience)</li>
-              <li>Technologies: Heroku, Gitlab, Salesforce, React</li>
+              <li>Programming: Python (proficient), Javascript (proficient), Apex (proficient)</li>
+              <li>Technologies: Heroku, Git, Salesforce, React</li>
             </ul>
           </div>
           <div className={classes.section}>

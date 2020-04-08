@@ -4,6 +4,9 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
+	text:{
+		fontWeight:'bold'
+	},
     popover: {
       pointerEvents: 'none',
     },
@@ -29,6 +32,7 @@ const HoverPopover = (props) => {
 	return (
 		<div>
 			<div 
+				className={classes.text}
 				onMouseEnter={handlePopoverOpen}
 				onMouseLeave={handlePopoverClose}
 			>
@@ -45,10 +49,10 @@ const HoverPopover = (props) => {
 				anchorOrigin={{
 					vertical: 'top',
 					horizontal: 'left',
-				}}
+				  }}
 				transformOrigin={{
-					vertical: 'bottom',
-					horizontal: 'center',
+				vertical: 'bottom',
+				horizontal: 'left',
 				}}
 			>
 				{props.content}
