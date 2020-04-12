@@ -41,6 +41,7 @@ const HomePage = () => {
               <li>Developed an invoice-processing Node.js/React App for the Accounts Payable team to increase throughput</li>
               <li>Automated the manual process of sorting and allocating invoices within the Accounts Payable team by using machine learning to create an email-classification algorithm (support vector machine) in Python to automatically label and sort emails, leading to a $2000 per week savings for Zayo</li>
               <li>Implemented the automation of the ‘three-way match’ process of internal financial teams by developing database interactions between the Salesforce and Oracle systems leading to the reduction of tedious labor</li>
+              <li>Configured Gitlab CI/CD pipelines for automatic testing and deployments in team repositories</li>
             </ul>
             <div className={classes.sectionHeader}>
               <div className={classes.company}>University of Colorado at Boulder,&nbsp;</div>
@@ -106,7 +107,7 @@ const HomePage = () => {
             <hr className={classes.line}/>
             <ul className={classes.points}>
               <li>Programming: Python (proficient), Javascript (proficient), Apex (proficient)</li>
-              <li>Technologies: Heroku, Git, Salesforce, React</li>
+              <li>Technologies: Heroku, Git, Salesforce, React, Gitlab CI/CD, Docker</li>
             </ul>
           </div>
           <div className={classes.section}>
