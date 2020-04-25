@@ -1,16 +1,17 @@
 const HomeStyles = (theme) => ({
     header: {
       textAlign:'center',
+      paddingTop:'10px'
+    },
+    headerTitle: {
     },
     headerSubtitle:{
-      textAlign:'center',
       fontSize:'15px'
     },
     links: {
       '& > *': {
         margin: theme.spacing(0.4),
       },
-      textAlign:'center',
       paddingTop:'0'
     },
     resume: {
@@ -69,7 +70,10 @@ const HomeStyles = (theme) => ({
       height:'150px'
     },
     footerItem: {
-
+      
+    },
+    profilePicture: {
+      width:'150px'
     }
 });
 
