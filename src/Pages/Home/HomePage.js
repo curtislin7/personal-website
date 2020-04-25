@@ -140,6 +140,4 @@ const HomePage = () => {
     </div> 
   );
 }
-//href="https://github.com/curtislin7"
-
 export default HomePage;
