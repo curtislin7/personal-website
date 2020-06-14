@@ -86,7 +86,7 @@ const HomePage = () => {
                   <ul className={classes.points}>
                     <li><a className={classes.pointHeader} href={'https://bit.ly/2WsF9L9'}>Olfactory Search Strategy Simulations:&nbsp;</a>Simulated a target (human) with an odor moving on a path and an agent (dog) who searched for the target using different methods to find an optimal search strategy</li>
                     <li><a className={classes.pointHeader} href={'https://bit.ly/2V9BY7m'}>Sudoku Solver:&nbsp;</a>– Implemented a backtracking search algorithm to solve randomly generated Sudoku puzzle boards</li>
-                    <li><span className={classes.pointHeader}>Search Engine:&nbsp;</span>Created a search engine based on the vector space model of information retrieval; used the cosine angle between the query and document vectors as a measure of similarity</li>
+                    <li><span className={classes.pointHeader}>Open Source Contributions:&nbsp;</span>Resolved issues in Base Web, Uber’s React UI Framework, as well as Material-UI, a popular React UI Framework</li>
                   </ul>
                 </div>
                 <div className={classes.section}>

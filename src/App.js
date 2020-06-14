@@ -4,7 +4,6 @@ import HomePage from './Pages/Home/HomePage'
 import { ThemeProvider } from '@material-ui/core/styles';
 import { theme } from './AppTheme';
 
-
 const App = () => {
   return (
     <ThemeProvider theme={theme}>
