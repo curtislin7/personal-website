@@ -51,10 +51,9 @@ const HomePage = () => {
                   </div>
                   <div className={classes.role}>Junior Application Developer</div>
                   <ul className={classes.points}>
-                    <li>Developed an invoice-processing Node.js/React App for the Accounts Payable team to increase throughput</li>
-                    <li>Automated the manual process of sorting and allocating invoices within the Accounts Payable team by using machine learning to create an email-classification algorithm (support vector machine) in Python to automatically label and sort emails, leading to a $2000 per week savings for Zayo</li>
+                    <li>Architected and shipped a machine-learning app to automatically categorize emails and pay invoices using Python, React, and Node.js leading to a $2000 per week savings</li>
                     <li>Implemented the automation of the ‘three-way match’ process of internal financial teams by developing database interactions between the Salesforce and Oracle systems leading to the reduction of tedious labor</li>
-                    <li>Configured Gitlab CI/CD pipelines for automatic testing and deployments in team repositories</li>
+                    <li>Constructed GitLab CI/CD pipelines for automatic testing and deployments in team repositories</li>
                   </ul>
                   <div className={classes.sectionHeader}>
                     <div className={classes.company}>University of Colorado at Boulder,&nbsp;</div>
@@ -85,6 +84,7 @@ const HomePage = () => {
                   <hr className={classes.line}/>
                   <ul className={classes.points}>
                     <li><a className={classes.pointHeader} href={'https://bit.ly/2WsF9L9'}>Olfactory Search Strategy Simulations:&nbsp;</a>Simulated a target (human) with an odor moving on a path and an agent (dog) who searched for the target using different methods to find an optimal search strategy</li>
+                    <li><a className={classes.pointHeader} href={'https://sun-tracker.herokuapp.com/'}>Sunset Tracker:&nbsp;</a>Created a Node.js/React app that finds user location via the Google Maps API, sunrise-sunset.org API, and Twilio SMS API to text users when a sunset is about to happen</li>
                     <li><a className={classes.pointHeader} href={'https://bit.ly/2V9BY7m'}>Sudoku Solver:&nbsp;</a>– Implemented a backtracking search algorithm to solve randomly generated Sudoku puzzle boards</li>
                     <li><span className={classes.pointHeader}>Open Source Contributions:&nbsp;</span>Resolved issues in Base Web, Uber’s React UI Framework, as well as Material-UI, a popular React UI Framework</li>
                   </ul>
@@ -119,7 +119,7 @@ const HomePage = () => {
                   <div className={classes.sectionTitle}>Skills</div>
                   <hr className={classes.line}/>
                   <ul className={classes.points}>
-                    <li>Programming: Python (proficient), Javascript (proficient), Apex (proficient)</li>
+                    <li>Programming: Javascript, Python, Apex</li>
                     <li>Technologies: Heroku, Git, Salesforce, React, Gitlab CI/CD, Docker</li>
                   </ul>
                 </div>
