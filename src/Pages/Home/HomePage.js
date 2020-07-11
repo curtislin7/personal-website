@@ -49,7 +49,7 @@ const HomePage = () => {
                     <div className={classes.location}>Boulder, Colorado</div>
                     <div className={classes.date}>June 2019-Present</div>
                   </div>
-                  <div className={classes.role}>Junior Application Developer</div>
+                  <div className={classes.role}>Software Engineer</div>
                   <ul className={classes.points}>
                     <li>Architected and shipped a machine-learning app to automatically categorize emails and pay invoices using Python, React, and Node.js leading to a $2000 per week savings</li>
                     <li>Implemented the automation of the ‘three-way match’ process of internal financial teams by developing database interactions between the Salesforce and Oracle systems leading to the reduction of tedious labor</li>
