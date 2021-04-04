@@ -45,9 +45,19 @@ const HomePage = () => {
                   <div className={classes.sectionTitle}>Experience</div>
                   <hr className={classes.line}/>
                   <div className={classes.sectionHeader}>
+                    <div className={classes.company}>Acorns,&nbsp;</div>
+                    <div className={classes.location}>Irvine, California</div>
+                    <div className={classes.date}>September 2020-August 2018</div>
+                  </div>
+                  <div className={classes.role}>Software Engineer</div>
+                  <ul className={classes.points}>
+                    <li>Architected and shipped a GraphQL microservice for forwarding/tracking user events, fulfilling rewards, and providing relational user data as part of Acorns’ new referrals platform</li>
+                    <li>Designed and built an internal referrals support tool with React for Acorns’ customer support team, with functionality to view user’s referred friends and the respective campaigns they are involved in  </li>
+                  </ul>
+                  <div className={classes.sectionHeader}>
                     <div className={classes.company}>Zayo Group,&nbsp;</div>
                     <div className={classes.location}>Boulder, Colorado</div>
-                    <div className={classes.date}>June 2019-Present</div>
+                    <div className={classes.date}>June 2019-September 2020</div>
                   </div>
                   <div className={classes.role}>Software Engineer</div>
                   <ul className={classes.points}>
@@ -65,18 +75,6 @@ const HomePage = () => {
                     <li>Provided support for students who have questions about artificial intelligence course material</li>
                     <li>Assisted instructor with planning of course materials, activities, and other projects regarding the class</li>
                     <li>Provided guidance for student questions via written explanations through email and Piazza class forum</li>
-                  </ul>
-                  <div className={classes.sectionHeader}>
-                    <div className={classes.company}>Summer Springboard,&nbsp;</div>
-                    <div className={classes.location}>Berkeley, California</div>
-                    <div className={classes.date}>June 2018-August 2018</div>
-                  </div>
-                  <div className={classes.role}>CS Teaching Assistant</div>
-                  <ul className={classes.points}>
-                    <li>Taught introductory Computer Science classes to college-bound students</li>
-                    <li>Helped students design mobile applications using MIT App Inventor and Thunkable</li>
-                    <li>Led coursework and projects that introduced the fundamentals of Computer Science and programming</li>
-                    <li>Organized onsite visits and tech talks at Google, Raspberry Pi, and Thunkable</li>
                   </ul>
                 </div>
                 <div className={classes.section}>
