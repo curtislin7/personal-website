@@ -52,7 +52,7 @@ const HomePage = () => {
                   <div className={classes.role}>Software Engineer</div>
                   <ul className={classes.points}>
                     <li>Architected and shipped a GraphQL microservice for forwarding/tracking user events, fulfilling rewards, and providing relational user data as part of Acorns’ new referrals platform</li>
-                    <li>Designed and built an internal referrals support tool with React for Acorns’ customer support team, with functionality to view user’s referred friends and the respective campaigns they are involved in </li>
+                    <li>Designed and built an internal referrals support tool with React for Acorns’ customer support team, with functionality to view users’ referred friends and the respective campaigns they are involved in </li>
                   </ul>
                   <div className={classes.sectionHeader}>
                     <div className={classes.company}>Zayo Group,&nbsp;</div>
