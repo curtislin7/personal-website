@@ -117,7 +117,7 @@ const HomePage = () => {
                   <div className={classes.sectionTitle}>Skills</div>
                   <hr className={classes.line}/>
                   <ul className={classes.points}>
-                    <li>Programming: Javascript, Python, Apex</li>
+                    <li>Programming: Ruby, Kotlin, Typescript, Javascript, Python</li>
                     <li>Technologies: Heroku, Git, Salesforce, React, Gitlab CI/CD, Docker</li>
                   </ul>
                 </div>
