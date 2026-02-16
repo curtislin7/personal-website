@@ -1,21 +1,20 @@
-import { createMuiTheme } from '@material-ui/core/styles';
-import green from '@material-ui/core/colors/green';
+import { createTheme } from '@mui/material/styles';
+import { green } from '@mui/material/colors';
 
-export const theme = createMuiTheme({
-    palette: {
-      primary: {
-          main: '#fffdd0'
-      },
-      secondary: green,
-      gradient: 'linear-gradient(45deg, #5b5a69 30%, #7fffd4 90%)',
+export const theme = createTheme({
+  palette: {
+    primary: {
+      main: '#fffdd0',
     },
-    typography: {
-        fontFamily: [
-          'Times, serif',
-          'sans-serif',
-          '"Apple Color Emoji"',
-          '"Segoe UI Emoji"',
-          '"Segoe UI Symbol"',
-        ].join(','),
-      },
+    secondary: green,
+    gradient: 'linear-gradient(45deg, #5b5a69 30%, #7fffd4 90%)',
+  },
+  typography: {
+    fontFamily: [
+      '"DM Sans"',
+      'Helvetica',
+      'Arial',
+      'sans-serif',
+    ].join(','),
+  },
 });

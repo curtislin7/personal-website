@@ -1,24 +1,27 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import NavStyles from './NavStyles';
-import { makeStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Button from '@material-ui/core/Button';
-import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
-import GitHubIcon from '@material-ui/icons/GitHub';
+import { makeStyles } from '@mui/styles';
+import AppBar from '@mui/material/AppBar';
+import Toolbar from '@mui/material/Toolbar';
+import Button from '@mui/material/Button';
+import IconButton from '@mui/material/IconButton';
+import MenuIcon from '@mui/icons-material/Menu';
+import GitHubIcon from '@mui/icons-material/GitHub';
+
 const useStyles = makeStyles(NavStyles);
+
 const NavBar = () => {
   const classes = useStyles();
   return (
     <div className={classes.root}>
-      <AppBar className = {classes.appBar} position ="static">
+      <AppBar className={classes.appBar} position="static">
         <Toolbar>
-          <IconButton edge="start"className={classes.menuButton} color="inherit" aria-label="menu">
+          <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
             <MenuIcon />
           </IconButton>
-          <Button color="inherit" href="/">Home</Button>
-          <Button color="inherit" href="/resume" className={classes.resumeButton}>Resume</Button>
+          <Button color="inherit" component={Link} to="/">Home</Button>
+          <Button color="inherit" component={Link} to="/resume" className={classes.resumeButton}>Resume</Button>
           <div className={classes.grow} />
           <IconButton edge="end" className={classes.githubButton} color="inherit" aria-label="github" href="https://github.com/curtislin7">
             <GitHubIcon />

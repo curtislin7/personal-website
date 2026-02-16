@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+# pnpm
+node_modules/.pnpm-debug.log*
+
 # testing
 /coverage
 

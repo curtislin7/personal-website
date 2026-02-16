@@ -1,17 +1,14 @@
-import React from 'react'
-import { Route, Switch } from 'react-router-dom'
-import HomePage from './Pages/Home/HomePage'
-import { ThemeProvider } from '@material-ui/core/styles';
+import React from 'react';
+import { ThemeProvider } from '@mui/material/styles';
 import { theme } from './AppTheme';
+import HomePage from './Pages/Home/HomePage';
 
 const App = () => {
   return (
     <ThemeProvider theme={theme}>
-        <Switch>
-          <Route path="/" component={HomePage}/>
-        </Switch>
+      <HomePage />
     </ThemeProvider>
-  )
-}
+  );
+};
 
 export default App;
