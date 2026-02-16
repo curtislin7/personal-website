@@ -11,7 +11,7 @@ const HomePage = () => {
       <div className={classes.content}>
         {/* Header / Contact */}
         <header className={classes.header}>
-          <img src="/profile.png" alt="Curtis Lin" className={classes.profilePic} />
+          <img src={`${process.env.PUBLIC_URL}/profile.png`} alt="Curtis Lin" className={classes.profilePic} />
           <h1 className={classes.name}>Curtis Lin</h1>
           <div className={classes.contact}>
             <span>4332 W 118th Place, Westminster, CO 80031</span>
